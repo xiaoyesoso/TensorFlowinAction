@@ -50,6 +50,7 @@ def train(mnist):
     regularizer = tf.contrib.layers.l2_regularizer(REGULARIZATION_RATE)
     regularization = regularizer(weights1) + regularizer(weight2)
     loss = cross_entropy_mean + regularization
+
     learning_rate = tf.train.exponential_decay(LEARNING_RATE_BASE, global_step,mnist.train.num_examples / BATCH_SIZE, LEARNING_RATE_DACAY)
 
     train_step = tf.train.GradientDescentOptimizer(learning_rate).minimize(loss, global_step=global_step)

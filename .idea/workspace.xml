@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c27e4dcb-4763-4ae2-aa83-54878b1bbb62" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/5_4_2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_4_1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mnist_eval_5_5.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/3_4_5.ipynb" afterPath="$PROJECT_DIR$/3_4_5.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/5_2_1.ipynb" afterPath="$PROJECT_DIR$/5_2_1.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/5_2_1.py" afterPath="$PROJECT_DIR$/5_2_1.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +21,8 @@
       <file leaf-file-name="5_2_1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/5_2_1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-321">
-              <caret line="52" column="137" lean-forward="false" selection-start-line="52" selection-start-column="118" selection-end-line="52" selection-end-column="137" />
+            <state relative-caret-position="810">
+              <caret line="46" column="99" lean-forward="false" selection-start-line="46" selection-start-column="67" selection-end-line="46" selection-end-column="99" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -29,17 +30,82 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="5_2_1.ipynb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/5_2_1.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="0" />
+      <file leaf-file-name="mnist_inference_5_5.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mnist_inference_5_5.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="27" column="17" lean-forward="false" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="3_4_5.ipynb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/3_4_5.ipynb">
+      <file leaf-file-name="mnist_train_5_5.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mnist_train_5_5.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="89" lean-forward="false" selection-start-line="17" selection-start-column="3" selection-end-line="18" selection-end-column="89" />
+              <folding>
+                <element signature="e#23#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mnist_eval_5_5.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mnist_eval_5_5.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nn_ops.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/site-packages/tensorflow/python/ops/nn_ops.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="29106">
+              <caret line="1636" column="4" lean-forward="false" selection-start-line="1636" selection-start-column="4" selection-end-line="1636" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="5_4_2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/5_4_2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="71" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="6_4_1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/6_4_1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="learning_rate_decay.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/site-packages/tensorflow/python/training/learning_rate_decay.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="26" column="4" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="5_2_1.ipynb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/5_2_1.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
               <selected id="0" />
@@ -55,44 +121,6 @@
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="random_ops.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/site-packages/tensorflow/python/ops/random_ops.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="5_1.ipynb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/5_1.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="0" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2_3.ipynb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2_3.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="0" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="constant_op.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/site-packages/tensorflow/python/framework/constant_op.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="738">
-              <caret line="51" column="30" lean-forward="false" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="30" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -113,16 +141,24 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/3_4_5.py" />
-        <option value="$PROJECT_DIR$/5_2_1.py" />
+        <option value="$PROJECT_DIR$/5.5.py" />
+        <option value="$PROJECT_DIR$/5_5_mnist_inference.py" />
+        <option value="$PROJECT_DIR$/5_4_2.py" />
+        <option value="$PROJECT_DIR$/6_4_1.py" />
         <option value="$PROJECT_DIR$/5_2_1.ipynb" />
+        <option value="$PROJECT_DIR$/5_5_mnist_train.py" />
+        <option value="$PROJECT_DIR$/5_2_1.py" />
+        <option value="$PROJECT_DIR$/mnist_inference_5_5.py" />
+        <option value="$PROJECT_DIR$/mnist_train_5_5.py" />
+        <option value="$PROJECT_DIR$/mnist_eval_5_5.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="89" />
-    <option name="y" value="100" />
-    <option name="width" value="1277" />
-    <option name="height" value="668" />
+    <option name="x" value="67" />
+    <option name="y" value="24" />
+    <option name="width" value="1299" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -139,7 +175,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -155,6 +190,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -172,7 +208,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.3_4_5">
+  <component name="RunManager" selected="Python.mnist_eval_5_5">
     <configuration default="false" name="3_4_5" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -186,6 +222,78 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TensorFlowinAction" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_4_5.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="5_2_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TensorFlowinAction" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5_2_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="5_4_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TensorFlowinAction" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5_4_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="mnist_train_5_5" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TensorFlowinAction" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mnist_train_5_5.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="mnist_eval_5_5" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TensorFlowinAction" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mnist_eval_5_5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -256,12 +364,20 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.3_4_5" />
+      <item index="1" class="java.lang.String" itemvalue="Python.5_2_1" />
+      <item index="2" class="java.lang.String" itemvalue="Python.5_4_2" />
+      <item index="3" class="java.lang.String" itemvalue="Python.mnist_train_5_5" />
+      <item index="4" class="java.lang.String" itemvalue="Python.mnist_eval_5_5" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.3_4_5" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.mnist_eval_5_5" />
+        <item index="1" class="java.lang.String" itemvalue="Python.mnist_train_5_5" />
+        <item index="2" class="java.lang.String" itemvalue="Python.5_4_2" />
+        <item index="3" class="java.lang.String" itemvalue="Python.5_2_1" />
+        <item index="4" class="java.lang.String" itemvalue="Python.3_4_5" />
       </list>
     </recent_temporary>
   </component>
@@ -282,13 +398,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="89" y="100" width="1277" height="668" extended-state="1" />
+    <frame x="67" y="24" width="1299" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2576351" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25327176" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46979865" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36160713" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -313,6 +429,20 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/site-packages/tensorflow/python/framework/constant_op.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="51" column="30" lean-forward="false" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5_2_1.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="-1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/5_2_1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -344,7 +474,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="684">
           <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -366,7 +495,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="738">
           <caret line="51" column="30" lean-forward="false" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -391,7 +519,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="684">
           <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -413,7 +540,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="738">
           <caret line="51" column="30" lean-forward="false" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -472,7 +598,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="738">
           <caret line="51" column="30" lean-forward="false" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -480,7 +605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
           <caret line="49" column="29" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="49" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -512,7 +636,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="738">
           <caret line="51" column="30" lean-forward="false" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -551,7 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="738">
           <caret line="51" column="30" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -566,7 +688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="738">
           <caret line="51" column="30" lean-forward="false" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -595,7 +716,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="684">
           <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -609,10 +729,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/site-packages/tensorflow/python/training/learning_rate_decay.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="26" column="4" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5.5.py" />
+    <entry file="file://$PROJECT_DIR$/5_5_mnist_inference.py" />
+    <entry file="file://$PROJECT_DIR$/5_5_mnist_train.py" />
+    <entry file="file://$PROJECT_DIR$/5_4_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="71" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6_4_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/site-packages/tensorflow/python/ops/nn_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29106">
+          <caret line="1636" column="4" lean-forward="false" selection-start-line="1636" selection-start-column="4" selection-end-line="1636" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/5_2_1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-321">
-          <caret line="52" column="137" lean-forward="false" selection-start-line="52" selection-start-column="118" selection-end-line="52" selection-end-column="137" />
+        <state relative-caret-position="810">
+          <caret line="46" column="99" lean-forward="false" selection-start-line="46" selection-start-column="67" selection-end-line="46" selection-end-column="99" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
@@ -623,6 +778,34 @@
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mnist_inference_5_5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="17" lean-forward="false" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mnist_train_5_5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="89" lean-forward="false" selection-start-line="17" selection-start-column="3" selection-end-line="18" selection-end-column="89" />
+          <folding>
+            <element signature="e#23#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mnist_eval_5_5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
