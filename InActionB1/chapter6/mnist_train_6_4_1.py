@@ -6,10 +6,10 @@ from tensorflow.examples.tutorials.mnist import input_data
 import numpy as np
 
 BATCH_SIZE = 100
-LEARNING_RATE_BASE = 0.8
+LEARNING_RATE_BASE = 0.01
 LEARNING_RATE_DECAY = 0.99
 REGULARZTION_RATE = 0.0001
-TRAINING_STEPS = 30000
+TRAINING_STEPS = 60000
 MOVING_AVERAGE_DECAY = 0.99
 
 MODEL_SAVE_PATH = "/home/soso/PycharmProjects/TensorFlowinAction/"
@@ -19,7 +19,7 @@ def train(mnist):
     x = tf.placeholder(tf.float32,[BATCH_SIZE,mnist_inference_6_4_1.IMAGE_SIZE,mnist_inference_6_4_1.IMAGE_SIZE,mnist_inference_6_4_1.NUM_CHANNELS],name='x-input')
     y_ = tf.placeholder(tf.float32,[None,mnist_inference_6_4_1.OUTPUT_NODE],name='y-input')
     regularizer = tf.contrib.layers.l2_regularizer(REGULARZTION_RATE)
-    y = mnist_inference_6_4_1.inference(x,regularizer)
+    y = mnist_inference_6_4_1.inference(x,True,regularizer)
 
     global_step = tf.Variable(0,trainable=False)
 
@@ -42,9 +42,9 @@ def train(mnist):
         for i in range(TRAINING_STEPS):
             xs,ys = mnist.train.next_batch(BATCH_SIZE)
             reshaped_xs = np.reshape(xs,(BATCH_SIZE,mnist_inference_6_4_1.IMAGE_SIZE,mnist_inference_6_4_1.IMAGE_SIZE,mnist_inference_6_4_1.NUM_CHANNELS))
-            _,loss_value,step = sess.run([train_op,loss,global_step],feed_dict={x:xs,y_:ys})
+            _,loss_value,step = sess.run([train_op,loss,global_step],feed_dict={x:reshaped_xs,y_:ys})
 
-            if i % 1000 == 0:
+            if i % 100 == 0:
                 print("After %d training step(s), loss is %g" %(step,loss_value))
                 saver.save(sess,os.path.join(MODEL_SAVE_PATH,MODEL_NAME),global_step=global_step)
 
