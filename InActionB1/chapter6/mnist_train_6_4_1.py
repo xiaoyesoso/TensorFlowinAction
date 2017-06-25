@@ -4,6 +4,7 @@ import tensorflow as tf
 import mnist_inference_6_4_1
 from tensorflow.examples.tutorials.mnist import input_data
 import numpy as np
+from tensorflow.contrib import layers
 
 BATCH_SIZE = 100
 LEARNING_RATE_BASE = 0.01
@@ -12,7 +13,7 @@ REGULARZTION_RATE = 0.0001
 TRAINING_STEPS = 60000
 MOVING_AVERAGE_DECAY = 0.99
 
-MODEL_SAVE_PATH = "/home/soso/PycharmProjects/TensorFlowinAction/"
+MODEL_SAVE_PATH = "/home/soso/PycharmProjects/MODEL_SAVE/"
 MODEL_NAME = "model_6_4_1.ckpt"
 
 def train(mnist):
@@ -35,6 +36,9 @@ def train(mnist):
     train_op = tf.group(train_step, variable_averages_op)
 
     saver = tf.train.Saver()
+
+    net = layers.conv2d(input_data,32,[3,3])
+
 
     with tf.Session() as sess:
         tf.global_variables_initializer().run()

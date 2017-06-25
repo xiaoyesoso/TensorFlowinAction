@@ -1,4 +1,5 @@
 import numpy as np
 import  tensorflow as tf
+#from tensorflow
 #def main(_):
-    #train_data,valid_data,test_data,_
+ #   train_data,valid_data,test_data,_ =
